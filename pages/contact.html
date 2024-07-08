@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/contact.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+ <header id="navbar" class="position-fixed w-100">
+    <div class="container">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../images/hedaer.logo.svg" alt="logo"></a>
+          <ul class="nav d-flex align-items-center d-none d-lg-flex">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="home-2.html">menu</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link text-white">about us</a>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn border-white text-white bg-transparent py-2 px-4">Log in</button>
+            </li>
+          </ul>
+          <button class="btn btn-danger bg-transparent border-0 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><img class="bg-transparent" src="../images/menu.svg" alt="menu"></button>
+          <div class="offcanvas offcanvas-start w-100 bg-secondary-subtle" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header bg-danger">
+              <img src="../images/hedaer.logo.svg" class="offcanvas-title" id="offcanvasScrollingLabel">
+              <button type="button" class="btn-close bg-danger " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="nav d-flex flex-column align-items-center justify-content-center gap-5">
+            <li class="nav-item-respon">
+              <a class="nav-link text-white" href="../index.html">Menu</a>
+            </li>
+            <li class="nav-item-respon">
+              <a class="nav-link text-white" href="news.html">News</a>
+            </li>
+            <li class="nav-item-respon">
+              <a class="nav-link text-white" href="home-2.html">menu</a>
+            </li>
+            <li class="nav-item-respon">
+              <a href="about.html" class="nav-link text-white">about us</a>
+            </li>
+            <li class="nav-item-respon">
+              <a href="../index.html" class="nav-link text-white">Log in</a>
+            </li>
+          </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+<body>
+      <div class="container">
+        <div class="nav__link__btn">
+            <a href="../index.html" class="nav-link text-secondary">home</a>
+            <span class="text-secondary">|</span>
+            <a href="#" class="nav-link text-danger">contact us</a>
+        </div>
+    </div>
+     <button id="backtop">
+            <a class="backtop__link" href="#">
+                <img src="../images/top.svg" alt="">
+            </a>
+  </button>
+    <main>
+        <section id="contact">
+            <div class="container">
+                <div class="contsct__wrapper">
+                    <div class="contact__wrapper__top d-flex flex-column justify-content-center align-items-center">
+                        <h1>Contact Us</h1>
+                        <img class="w-100" style="max-width: 40px;" src="../images/news.logo.svg" alt="">
+                    </div>
+                    <div class="contact__wrapper__boxs d-flex flex-wrap justify-content-between gap-5">
+                        <div class="contact__left__box  d-flex flex-column gap-3 d-flex justify-content-center align-items-center ms-2 ms-lg-0">
+                            <div class="contact__left__box__card">
+                                <img src="../images/contact.tel.svg" alt="tel">
+                                <div class="contact__left__box__card__content">
+                                    <h4>Phone Number</h4>
+                                    <p>+1 212-344-1230</p>
+                                </div>
+                            </div>
+                            <div class="contact__left__box__card">
+                                <img src="../images/contact.sms.svg" alt="tel">
+                                <div class="contact__left__box__card__content">
+                                    <h4>Email Address</h4>
+                                    <p>eaturkish@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact__left__box__card">
+                                <img src="../images/contact.instagram.svg" alt="tel">
+                                <div class="contact__left__box__card__content">
+                                    <h4>Instagram</h4>
+                                    <p>eaturkish</p>
+                                </div>
+                            </div>
+                            <div class="contact__left__box__card">
+                                <img src="../images/contact.twitter.svg" alt="tel">
+                                <div class="contact__left__box__card__content">
+                                    <h4>Twitter</h4>
+                                    <p>eaturkish</p>
+                                </div>
+                            </div>
+                            <div class="contact__left__box__card">
+                                <img src="../images/contact.facebook.svg" alt="tel">
+                                <div class="contact__left__box__card__content">
+                                    <h4>Facebook</h4>
+                                    <p>eaturkish</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact__right__box">
+                            <h2>Send Messege</h2>
+                            <p>If you have any questions, you can send us an SMS or contact us by phone you can also contact us via social networks.</p>
+                            <form class="d-flex align-items-center flex-wrap gap-3">
+                                <input type="name" placeholder="Your name">
+                                <input type="email" placeholder="Email address">
+                                <input type="number" placeholder="Phone number">
+                                <input type="text" placeholder="Subject">
+                            </form>
+                            <form class="form-2">
+                                <textarea name="Message" id="1" cols="75" rows="5" placeholder="Message"></textarea>
+                            </form>
+                            <button class="ms-5 ms-lg-0">Send message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="map">
+            <h3>Find us by card</h3>
+            <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191885.25298617416!2d69.2793667!3d41.28259745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2sTashkent!5e0!3m2!1sen!2s!4v1702007132256!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer id="footer" class="footer position-relative">
+      <div class="container">
+         <div class="footer-box d-none d-lg-block  position-absolute w-100">
+            <h6>Newsletter</h6>
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>And never miss latest Updates!</p>
+            <div class="form">
+              <input type="email" placeholder="Email Address">
+              <button>Subscribe</button>
+            </div>
+          </div>
+        <div class="footer__wrapper">
+          <ul class="footer__wrapper__list text-center d-lg-flex  align-items-center me-5 me-lg-0 ">
+            <li class="footer__item d-flex flex-column gap-3 mb-5 mb-lg-0">
+              <p class="text-white d-flex justify-content-center">Contact Us</p>
+              <ul class="footer__item__list d-flex flex-column align-items-center gap-2">
+                <li class="footer__item__list__item"><a href="#" class="nav-link text-white">9 W 53rd St, London, NY 10019, UK</a></li>
+                <li class="footer__item__list__item"><a href="#" class="nav-link text-white">+1 212-344-1230</a></li>
+                <li class="footer__item__list__item"><a href="#" class="nav-link text-white">+1 212-555-1230</a></li>
+              </ul>
+            </li>
+            <li class="footer__item d-flex flex-column align-items-center gap-3 mb-5 mb-lg-0">
+              <img class="w-100" style="max-width: 336px;" src="../images/hedaer.logo.svg" alt="logo">
+              <span class="footer__span text-white w-80">"The best way to find yourself is to lose yourself in the <br> service of others.”</span>
+              <ul class="footer__item__list d-flex justify-content-center align-items-center gap-2">
+                <img src="../images/facebook.svg" alt="logo">
+                <img src="../images/twitter.svg" alt="logo">
+                <img src="../images/instagramm.svg" alt="logo">
+              </ul>
+            </li>
+            <li class="footer__item d-flex flex-column gap-3 mb-5 mb-lg-0">
+              <p class="text-white d-flex justify-content-center">Working Hours</p>
+              <ul class="footer__item__list d-flex flex-column align-items-center gap-2">
+                <li class="footer__item__list__item"><a href="#" class="nav-link text-white">Monday-Friday: <br>08:00 am -12:00 am</a></li>
+                <li class="footer__item__list__item"><a href="#" class="nav-link text-white">Saturday-Sunday: <br> 07:00am -11:00 pm</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="footer__bottom  d-flex justify-content-center align-items-center">
+            <a class="nav-link text-white" href="#">2022 Pop online. All Rights reserved.</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/main.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
